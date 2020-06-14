@@ -27,6 +27,7 @@ public class StudentController {
         int result = studentService.updateByPrimaryKey(student);
         System.out.println(result);
         System.out.println("add new branch here");
+        System.out.println("yrz new add branch");
         return result;
     }
 }
